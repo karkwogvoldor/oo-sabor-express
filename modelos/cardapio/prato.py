@@ -6,4 +6,4 @@ class Prato(ItemCardapio):
         self._descricao = descricao
         
     def aplicar_desconto(self):
-        desconto -= (self._preco * 0.08)
+        self._preco -= (self._preco * 0.08)
