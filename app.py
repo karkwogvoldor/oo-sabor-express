@@ -1,6 +1,7 @@
 from modelos.restaurante import Restaurante
 from modelos.cardapio.bebida import Bebida
 from modelos.cardapio.prato import Prato
+from modelos.cardapio.sobremesa import Sobremesa
 
 restaurante_praca = Restaurante('Praça', 'Gourmet')
 bebida_suco = Bebida('Suco de Laranja', 5.0, '500mL')
